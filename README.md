@@ -1,25 +1,18 @@
 # SwipeStack
 A simple, customizable and easy to use swipeable view stack for Android.
 
-[![Download](https://api.bintray.com/packages/flschweiger/maven/swipestack/images/download.svg) ](https://bintray.com/flschweiger/maven/swipestack/_latestVersion) 
-[![License Apache](https://img.shields.io/badge/license-Apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SwipeStack-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3079)
-
-![Demo screen 1](https://raw.githubusercontent.com/flschweiger/SwipeStack/master/art/screen1.png)
-![Demo animation](https://raw.githubusercontent.com/flschweiger/SwipeStack/master/art/demo.gif)
-![Demo screen 2](https://raw.githubusercontent.com/flschweiger/SwipeStack/master/art/screen2.png)  
 
 ## QuickStart ##
 ### Include the Gradle dependency ###
 
 ```java
 dependencies {
-    compile 'link.fls:swipestack:0.3.0'
+    compile 'com.pao11.xyi:swipestack-release:1.0.0'
 }
 ```
 
 ### Use it in your layout file ###
-1. Use the `link.fls.swipestack.SwipeStack` view in your XML layout file 
+1. Use the `com.pao11.swipestack.SwipeStack` view in your XML layout file
 2. Set the parent view's `clipChildren` attribute to `false`
 
 *Example:*
@@ -33,7 +26,7 @@ dependencies {
     android:layout_height="match_parent"
     android:clipChildren="false">
 
-    <link.fls.swipestack.SwipeStack
+    <com.pao11.swipestack.SwipeStack
         android:id="@+id/swipeStack"
         android:layout_width="320dp"
         android:layout_height="240dp"
@@ -127,7 +120,7 @@ Currently SwipeStack implements the following callbacks:
 
 ## Copyright Notice ##
 ``` 
-Copyright (C) 2016 Frederik Schweiger
+Copyright (C) 2016 yixinghou
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
