@@ -22,7 +22,6 @@ import android.database.DataSetObserver;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -367,7 +366,7 @@ public class SwipeStack extends ViewGroup {
      *
      * @param listener The callback that will run
      */
-    public void setListener(@Nullable SwipeStackListener listener) {
+    public void setListener(SwipeStackListener listener) {
         mListener = listener;
     }
 
@@ -377,7 +376,7 @@ public class SwipeStack extends ViewGroup {
      *
      * @param listener The callback that will run
      */
-    public void setSwipeProgressListener(@Nullable SwipeProgressListener listener) {
+    public void setSwipeProgressListener(SwipeProgressListener listener) {
         mProgressListener = listener;
     }
 
